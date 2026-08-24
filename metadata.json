@@ -1,0 +1,12 @@
+{
+  "name": "NEMDAN",
+  "description": "NEMDAN — Global Social Media Platform with TikTok-inspired Live Streaming & Real-Time Animated Gifting, Virtual Coin Wallet, Creator Monetization & Payouts, Fair Referral Rewards System with Anti-Fraud, News Feed, Stories, Reels, Messenger, WebRTC Calls, Marketplace, Groups, and AI Moderation.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
+
