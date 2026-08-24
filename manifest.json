@@ -1,0 +1,41 @@
+{
+  "name": "NEMDAN - Social Network & Live Streams",
+  "short_name": "NEMDAN",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#090d16",
+  "theme_color": "#0284c7",
+  "description": "Global Social Media & Live Streaming Platform with Real-Time Animated Gifting, Reels, Messenger, WebRTC, and Wallet.",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["social", "entertainment", "lifestyle"],
+  "orientation": "portrait-primary",
+  "shortcuts": [
+    {
+      "name": "Live Streams",
+      "short_name": "Live",
+      "description": "Watch and broadcast live video streams with gifts",
+      "url": "/?view=live",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "NEMDAN Pay Wallet",
+      "short_name": "Wallet",
+      "description": "Manage virtual coins and creator payouts",
+      "url": "/?view=wallet",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
