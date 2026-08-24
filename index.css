@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  color-scheme: light;
+}
+
+:root.dark,
+[data-theme="dark"] {
+  color-scheme: dark;
+}
+
+@keyframes floatUp {
+  0% {
+    opacity: 1;
+    transform: translateY(0) scale(0.8);
+  }
+  50% {
+    opacity: 0.9;
+    transform: translateY(-80px) scale(1.2) translateX(15px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-180px) scale(1.4) translateX(-15px);
+  }
+}
+
+.animate-float-up {
+  animation: floatUp 2.2s ease-out forwards;
+}
+
